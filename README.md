@@ -13,6 +13,6 @@ Team Leader Name: HARIPRASATH V
 
 Team Members: SATHISH KUMAR R
 
-              PRAVEEN D
+PRAVEEN D
               
-              AJITH G
+AJITH G
