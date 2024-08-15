@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+
+	<!-- title -->
+	<title>Agri_Gram</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="static/image/favicon.png">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="static/css/all.min.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+	<!-- owl carousel -->
+	<!-- <link rel="stylesheet" href="static/css/owl.carousel.css"> -->
+	<!-- magnific popup -->
+	<!-- <link rel="stylesheet" href="static/css/magnific-popup.css"> -->
+	<!-- animate css -->
+	<!-- <link rel="stylesheet" href="static/css/animate.css"> -->
+	<!-- mean menu css -->
+	<!-- <link rel="stylesheet" href="static/css/meanmenu.min.css"> -->
+	<!-- main style -->
+	<link rel="stylesheet" href="static/css/main.css">
+	<!-- responsive -->
+	<!-- <link rel="stylesheet" href="static/css/responsive.css"> -->
+	<!-- fa fa icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+	
+	
+	<!-- header -->
+	<div class="top-header-area" id="sticker">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 text-center">
+					<div class="main-menu-wrap">
+						<!-- logo -->
+						<div class="site-logo">
+							<a href="#">
+								<img src="" alt="">
+							</a>
+						</div>
+						<!-- logo -->
+
+						<!-- menu start -->
+						<nav class="main-menu">
+							<ul>
+								<li class="current-list-item"><a href="#">Home</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="news.html">News</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<li><a href="#">Shop</a>
+									<ul class="sub-menu">
+										<li><a href="#">Shop</a></li>
+										<li><a href="checkout.html">Check Out</a></li>
+										<li><a href="cart.html">Cart</a></li>
+									</ul>
+								</li>
+								<li>
+									<div class="header-icons">
+										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+										<!-- <a href="#" class=""shopping-cart><i class="fas fa-user-tie"></i></a> -->
+									</div>
+								</li>
+							</ul>
+						</nav>
+						<!-- menu end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+	<!-- hero area -->
+	<div class="hero-area hero-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 offset-lg-2 text-center">
+					<div class="hero-text">
+						<div class="hero-text-tablecell">
+							<p class="subtitle">Fresh & Organic</p>
+							<h1>Sustainable & Organic product for farmers</h1>
+							<div class="hero-btns">
+								<a href="#" class="boxed-btn"><i class="fas fa-user">&nbsp;&nbsp;</i>Buyer</a>
+								<a href="#" class="bordered-btn"><i class="fas fa-handshake">&nbsp;&nbsp;</i>Seller</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end hero area -->
+
+	<!-- features list section -->
+	<div class="list-section pt-80 pb-80">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+					<div class="list-box d-flex align-items-center">
+						<div class="list-icon">
+							<i class="fas fa-shipping-fast"></i>
+						</div>
+						<div class="content">
+							<h3>Free Shipping</h3>
+							<p>When order over distance in <br> Tamilnadu</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+					<div class="list-box d-flex align-items-center">
+						<div class="list-icon">
+							<i class="fas fa-phone-volume"></i>
+						</div>
+						<div class="content">
+							<h3>24/7 Support</h3>
+							<p>Get support all day</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="list-box d-flex justify-content-start align-items-center">
+						<div class="list-icon">
+							<i class="fas fa-sync"></i>
+						</div>
+						<div class="content">
+							<h3>Refund</h3>
+							<p>Get refund within 3 days!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- end features list section -->
+
+	<!-- product section -->
+	<div class="product-section mt-150 mb-150">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="section-title">	
+						<h3><span class="orange-text">Our</span> Products</h3>
+						<p>These are not our product....These product are farmers product and platform</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-6 text-center">
+					<div class="single-product-item">
+						<div class="product-image">
+                            <a href="single-product.html"><img src="{{ url_for('static', filename='organic2.jpeg') }}" alt=""></a>
+
+						</div>
+						<h3>Organic Fertilizer</h3>
+						<p class="product-price"><span>Per Kg</span>₹250</p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 text-center">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="{{ url_for('static', filename='cow1.jpeg') }}" alt=""></a>
+
+						</div>
+						<h3>Cow Dunk</h3>
+						<p class="product-price"><span>Per Kg</span> ₹150 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product.html"><img src="{{ url_for('static', filename='pesticide2.jpeg') }}" alt=""></a>
+
+						</div>
+						<h3>Organic Pesticides</h3>
+						<p class="product-price"><span>Per Kg</span> ₹200 </p>
+						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end product section -->
+
+</div>
+
+	
+	
+	<!-- advertisement section -->
+	<div class="abt-section mb-150">
+		<div class="container">
+			<div class="row">
+				<!-- <div class="col-lg-6 col-md-12">
+					<div class="abt-bg">
+						<a href="#" class="video-play-btn popup-youtube"><i class="fas fa-play"></i></a>
+					</div>
+				</div> -->
+				<div class="col-lg-6 col-md-12">
+					<div class="abt-text">
+						<p class="top-sub">Since Year 2024</p>
+						<h2>We are <span class="orange-text">Agri_Gram</span></h2>
+						<p>We proviode the useful platform for the farmer for their sustainable agriculture and method of farming</p>
+						<p>This platform provide the farmer to both buy and sell their their product with their own price , this will provide the farmer to mutually connect with other farmer easily and directly...</p>
+						<a href="about.html" class="boxed-btn mt-4">know more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end advertisement section -->
+
+
+	<!-- footer -->
+	<div class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box about-widget" id="about">
+						<h2 class="widget-title">About us</h2>
+						<p>We proviode the useful platform for the farmer for their sustainable agriculture and method of farming</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box get-in-touch" id="contact">
+						<h2 class="widget-title">Get in Touch</h2>
+						<ul>
+							<li>Velammal nagar,Surapet-600066</li>
+							<li>daydreamers.0704@agrigram.ltd.in</li>
+							<li>+461 258 2659</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box pages">
+						<h2 class="widget-title">Pages</h2>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="services.html">Shop</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box subscribe">
+						<h2 class="widget-title">Subscribe</h2>
+						<p>Subscribe to our mailing list to get the latest updates.</p>
+						<form action="index.html">
+							<input type="email" placeholder="Email">
+							<button type="submit"><i class="fas fa-paper-plane"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+	
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<p>Copyrights &copy; 2024 - <a href="#">Agri_Gram</a>,  All Rights Reserved.<br>
+						Distributed By - <a href="#">Daydreamers</a>
+					</p>
+				</div>
+				<div class="col-lg-6 text-right col-md-12">
+					<div class="social-icons">
+						<ul>
+							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end copyright -->
+	
+	<!-- jquery -->
+	<script src="static/js/jquery-1.11.3.min.js"></script>
+	<!-- bootstrap -->
+	<script src="static/bootstrap/js/bootstrap.min.js"></script>
+	<!-- count down -->
+	<script src="static/js/jquery.countdown.js"></script>
+	<!-- isotope -->
+	<script src="static/js/jquery.isotope-3.0.6.min.js"></script>
+	<!-- waypoints -->
+	<script src="static/js/waypoints.js"></script>
+	<!-- owl carousel -->
+	<script src="static/js/owl.carousel.min.js"></script>
+	<!-- magnific popup -->
+	<script src="static/js/jquery.magnific-popup.min.js"></script>
+	<!-- mean menu -->
+	<script src="static/js/jquery.meanmenu.min.js"></script>
+	<!-- sticker js -->
+	<script src="static/js/sticker.js"></script>
+	<!-- main js -->
+	<script src="static/js/main.js"></script>
+	<script>
+		const heroBgUrl = "{{ url_for('static', filename='image/hero-bg.jpg') }}";
+		document.querySelector('.hero-bg').style.backgroundImage = `url('${heroBgUrl}')`;
+	</script>
+</body>
+</html>

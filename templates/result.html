@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to bottom, #56ab2f, #a8e063);
+            color: #fff;
+            overflow: hidden;
+        }
+        .result-container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 90%;
+            box-sizing: border-box;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #4CAF50;
+            font-size: 2em;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 8px;
+            border: 2px solid #4CAF50;
+            margin-top: 20px;
+        }
+        footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        #uploadimage{
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-container">
+        <h1>Prediction Result</h1>
+        <p><strong>Predicted Label:</strong> {{ prediction }}</p>
+        <p #uploadimage><strong>Uploaded Image:</strong></p>
+        <img src="{{ url_for('static', filename='uploads/' + image_file) }}" alt="Uploaded Image">
+    </div>
+    <footer>
+        Helping Farmers Protect Their Crops
+    </footer>
+</body>
+</html>
